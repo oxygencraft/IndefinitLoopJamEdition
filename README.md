@@ -1,18 +1,22 @@
 # Indefinit(Loop);
 
-A 2d top down puzzle game
+A 2D top down puzzle game
 
-You're stuck in a loop in code and you need to misbehave to create an exception in the program and stop the loop.
-The code is a 2d top down puzzle level where statements are scattered over the level.
+# Game Info
 
-You must perform (execute) the code by interacting with the statements world. For example you pick up values to assign your variables and you can call functions by going to them.
+You are a robot who is stuck in a code loop. You must break the loop by executing a break statement.
 
-(Jam version does not deviations yet but this but will implement post jam)
+You must execute the code exactly as specified by the programmer (level designer). There are several different types of code statements,
+all from real programming languages and doing different actions (some actions may not actually reflect what happens in real programming
+languages). If you deviate from the code, you will be surrounded by continue statements and fail the level.
 
-~~You must perform the loop exactly but the programmer (level designer) has made some mistakes and allowed the code to do things differently at some points. If you deviate from the code when you are not permitted, you will be surrounded by continue statements and fail the level.~~
+One of the statements is function statement. This statement is a block of code can can perform any action. For example, it can trigger
+an environment object to perform an action.
 
-Environment objects are objects that manipulate other objects in the world. You can interact with environment objects by calling the function that interacts with environment objects.
+Environment objects are objects that can interact with the world and other objects. One object is a pusher, it can push objects in the 
+direction it is facing or in all four directions. Objects can be manipulated with so use this to your advantage to complete the level.
 
-Blocks are objects that are in the way and do nothing. You can move the environment objects and blocks around so use that to your advantage to complete the level.
+(NOT IMPLEMENTED YET)
 
-To exit the level, you must execute a break statement. If you execute a continue statement, you fail the level and will restart the level
+The programmer has made mistakes with the code and as a result, deviations from the code at certain points is allowed. You can use this
+to your advantage to complete the level.
