@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: TronFloorTile19
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -8021509074228731018, guid: 1fab929a528cbb840990de2365943b19, type: 3}
+  - {fileID: 6168756800353832107, guid: de059690fa97d2e49a84204bd8048d00, type: 3}
+  - {fileID: -6551738284815486626, guid: 1e8918e15f4f894448100ba42a957a3e, type: 3}
+  - {fileID: 191706677940629021, guid: 9a0177cd9109cc3409f2dc5815a5e70d, type: 3}
+  - {fileID: -4018843231042322380, guid: 7b184224e2c9dc744a7886e9178301a9, type: 3}
+  - {fileID: -4473583052540549548, guid: 401d751644d03024abc8b151f75a3c8c, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
